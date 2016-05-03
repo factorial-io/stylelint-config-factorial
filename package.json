@@ -1,20 +1,21 @@
 {
-  "name": "stylelint-config-suitcss",
-  "version": "6.0.0",
-  "description": "SUIT CSS config for stylelint",
+  "name": "stylelint-config-factorial",
+  "version": "7.0.0",
+  "description": "Factorial config for stylelint",
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "suitcss"
+    "suitcss",
+    "factorial"
   ],
   "author": "Stylelint",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/suitcss/stylelint-config-suitcss.git"
+    "url": "https://github.com/factorial-io/stylelint-config-factorial.git"
   },
-  "homepage": "https://github.com/suitcss/stylelint-config-suitcss",
-  "bugs": "https://github.com/suitcss/stylelint-config-suitcss/issues",
+  "homepage": "https://github.com/factorial-io/stylelint-config-factorial",
+  "bugs": "https://github.com/factorial-io/stylelint-config-factorial/issues",
   "main": "index.js",
   "files": [
     "index.js"
@@ -24,7 +25,9 @@
     "eslint": "^2.4.0",
     "eslint-config-stylelint": "^1.0.0",
     "npmpub": "^3.0.1",
-    "stylelint": "^6.2.1"
+    "stylelint": "^6.2.1",
+    "stylelint-config-suitcss": "^6.0.0",
+    "stylelint-selector-bem-pattern": "^0.2.3"
   },
   "peerDependencies": {
     "stylelint": "^6.0.0"
