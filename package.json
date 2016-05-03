@@ -24,7 +24,9 @@
     "eslint": "^2.4.0",
     "eslint-config-stylelint": "^1.0.0",
     "npmpub": "^3.0.1",
-    "stylelint": "^6.2.1"
+    "stylelint": "^6.2.1",
+    "stylelint-config-suitcss": "^6.0.0",
+    "stylelint-selector-bem-pattern": "^0.2.3"
   },
   "peerDependencies": {
     "stylelint": "^6.0.0"
