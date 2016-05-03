@@ -30,7 +30,9 @@
     "stylelint-selector-bem-pattern": "^0.2.3"
   },
   "peerDependencies": {
-    "stylelint": "^6.0.0"
+    "stylelint": "^6.2.1",
+    "stylelint-config-suitcss": "^6.0.0",
+    "stylelint-selector-bem-pattern": "^0.2.3"
   },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
