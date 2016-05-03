@@ -5,7 +5,8 @@
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "suitcss"
+    "suitcss",
+    "factorial"
   ],
   "author": "Stylelint",
   "license": "MIT",
