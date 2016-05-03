@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-factorial",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Factorial config for stylelint",
   "keywords": [
     "stylelint",
@@ -20,6 +20,10 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "stylelint-config-suitcss": "^6.0.0",
+    "stylelint-selector-bem-pattern": "^0.2.3"
+  },
   "devDependencies": {
     "ava": "^0.13.0",
     "eslint": "^2.4.0",
@@ -30,9 +34,7 @@
     "stylelint-selector-bem-pattern": "^0.2.3"
   },
   "peerDependencies": {
-    "stylelint": "^6.2.1",
-    "stylelint-config-suitcss": "^6.0.0",
-    "stylelint-selector-bem-pattern": "^0.2.3"
+    "stylelint": "^6.2.1"
   },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
