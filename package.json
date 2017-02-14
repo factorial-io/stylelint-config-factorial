@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "stylelint-config-suitcss": "^9.0.0",
+    "stylelint-order": "^0.2.2",
     "stylelint-selector-bem-pattern": "^1.0.0"
   },
   "devDependencies": {

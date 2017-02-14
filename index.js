@@ -2,10 +2,11 @@ module.exports = {
   "extends": "stylelint-config-suitcss",
   "plugins": [
     "stylelint-selector-bem-pattern",
+    "stylelint-order",
   ],
   "rules": {
-    "length-zero-no-unit": true,
-    "rule-nested-empty-line-before": [
+    "number-leading-zero": "never",
+    "rule-empty-line-before": [
       "always-multi-line",
       {
         "except": [
@@ -16,7 +17,8 @@ module.exports = {
     "plugin/selector-bem-pattern": {
       "preset": "suit",
     },
-    "declaration-block-properties-order": [
+    "order/declaration-block-properties-alphabetical-order": null,
+    "order/declaration-block-properties-specified-order": [
       "position",
       "top",
       "right",
