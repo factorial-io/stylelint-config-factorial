@@ -4,7 +4,7 @@ module.exports = {
     "stylelint-selector-bem-pattern",
   ],
   "rules": {
-    "number-leading-zero": "never",
+    "length-zero-no-unit": true,
     "rule-nested-empty-line-before": [
       "always-multi-line",
       {
@@ -13,7 +13,7 @@ module.exports = {
         ],
       },
     ],
-    "selector-bem-pattern": {
+    "plugin/selector-bem-pattern": {
       "preset": "suit",
     },
     "declaration-block-properties-order": [
